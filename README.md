@@ -4,6 +4,8 @@
 > [!update]
 > - Contect me
 > - darkmode
-> - fix bug
+> - Galeri(coming soon)
+> - Ui Update
+> - framework new
 
 
