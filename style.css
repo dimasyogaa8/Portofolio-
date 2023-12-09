@@ -83,7 +83,6 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
 }
 
 .action-button:hover {
@@ -97,6 +96,8 @@ body {
 .Info-about {
   margin: 10% 5%;
   color: #009AFF;
+}
+.Info-about h1{
 }
 .Info-about p{
   padding: 0 5px;
@@ -147,6 +148,54 @@ body {
     .stack {
       color: #009AFF;
     }
+    .project-text {
+      color: #009AFF;
+      padding: 40px;
+    }
+    .project-box {
+      width: 100%;
+      height: auto;
+    }
+    .project-view {
+      width: 75%;
+      height: 275px;
+      background: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(15px);
+      margin: 5% auto;
+      border-radius: 20px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+      
+    }
+    .project-view h1{
+      color: #009AFF;
+      padding: 5% 10%;
+    }
+    .lebel {
+      padding: 0 8%;
+      margin: -25px 0;
+     text-align: center;
+     position: absolute;
+     display: flex;
+    }
+    .lebel-id {
+      width: 45px;
+      height: 25px;
+      background: #00FFF2;
+      border-radius: 10px;
+      color: black;
+      margin: 0 1%;
+      display: flex;
+    }
+    .lebel-id p{
+      margin: auto;
+      font-size: 10px;
+    }
+    .subtext {
+      padding: 0 40px;
+      color: gray; 
+      margin: 4% 0;
+    }
+    
 @media screen and (max-width: 600px) {
  .stack-container {
       max-width: 800px;
