@@ -214,8 +214,14 @@ body {
     animation-delay: 1s;
     
   }
-
-    
+.contect-me {
+  width: 100%;
+  height: auto;
+}
+.contect-text {
+  padding: 0 20px;
+  color: #009AFF;
+}
 @media screen and (max-width: 600px) {
  .stack-container {
       max-width: 800px;
