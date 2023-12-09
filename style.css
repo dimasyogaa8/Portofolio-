@@ -3,13 +3,17 @@
   margin: 0; 
   box-sizing: border-box;
 }
+:root {
+   --animate-delay: 0.9s;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: rgba(92, 170, 237, 0.09);
 }
 .dark-mode {
-  background-color: black;
+  background-color: rgba(0, 43, 70, 1);
   color: white;
 }
 
@@ -150,7 +154,10 @@ body {
     }
     .project-text {
       color: #009AFF;
-      padding: 40px;
+      padding: 0 40px;
+    }
+    .project-text:hover {
+      color: #007ECC;
     }
     .project-box {
       width: 100%;
@@ -159,7 +166,7 @@ body {
     .project-view {
       width: 75%;
       height: 275px;
-      background: rgba(0, 0, 0, 0.1);
+      background: rgba(0, 136, 255, 0.08);
       backdrop-filter: blur(15px);
       margin: 5% auto;
       border-radius: 20px;
@@ -180,9 +187,8 @@ body {
     .lebel-id {
       width: 45px;
       height: 25px;
-      background: #00FFF2;
       border-radius: 10px;
-      color: black;
+      color: grey;
       margin: 0 1%;
       display: flex;
     }
@@ -195,6 +201,20 @@ body {
       color: gray; 
       margin: 4% 0;
     }
+  .button-proj {
+    padding: 10px 25px;
+    text-align: center;
+    background-color: #0088FF;
+    margin: 0 10%;
+    border-radius: 3px;
+    color: white;
+  }
+  .button-proj:hover {
+    background-color: rgba(0, 136, 255, 0.2);
+    animation-delay: 1s;
+    
+  }
+
     
 @media screen and (max-width: 600px) {
  .stack-container {
