@@ -4,5 +4,5 @@
 
 > [!note]
 > - Contect me
-- darkmode
-- fix bug
+> - darkmode
+> - fix bug
