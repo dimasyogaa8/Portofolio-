@@ -313,14 +313,14 @@ flex: 5;
 .project{
   color: #009AFF;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 760px) {
   .stack-container {
       max-width: 800px;
       height: 220px;
       padding: 40px;
       border-radius: 8px;
       margin-top: 40px;
-      margin: 20% 0;
+      margin: 42% 0;
     }
 
     .tech-icon {
