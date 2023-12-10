@@ -181,9 +181,11 @@ body {
     .project-box {
       width: 100%;
       height: auto;
+      display: flex;
+      flex-wrap: wrap;
     }
    .project-view {
-      width: 75%;
+      width: 45%;
       height: 300px;
       background: rgba(0, 136, 255, 0.08);
       backdrop-filter: blur(15px);
@@ -208,7 +210,7 @@ body {
     }
     .subtext {
       padding: 0 40px;
-      font-size: 20px;
+      font-size: 15px;
       color: gray; 
       margin: 4% 0;
       
@@ -217,7 +219,7 @@ body {
     padding: 10px 25px;
     text-align: center;
     background-color: #0088FF;
-    margin: -10%  3%;
+    margin: -10%  9%;
     border-radius: 3px;
     color: white;
   }
@@ -284,7 +286,7 @@ flex: 5;
 #github-stats p{
   font-size: 16px;
 }
-@media(min-width: 341px) {
+@media(max-width: 760px) {
   .stack-container {
   max-width: 800px;
   height: 220px;
@@ -321,6 +323,7 @@ flex: 5;
     .project-box {
       width: 100%;
       height: auto;
+      display: block;
     }
    .project-view {
       width: 75%;
