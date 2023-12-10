@@ -78,7 +78,21 @@ body {
     color: grey;
     margin-top: 2px;
 }
-
+.sosoalmed {
+  width: auto;
+  height: 50px;
+  
+}
+.sosoalmed ul{
+ display: flex;
+ justify-content: center;
+}
+.sosoalmed li{
+  margin: 0 1.5%;
+  
+  
+  
+}
 .action-button {
     background-color: #3498db;
     color: #fff;
