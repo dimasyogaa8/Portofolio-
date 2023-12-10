@@ -21,3 +21,25 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Ganti dengan username GitHub Anda
+    const username = 'dimaskecee';
+
+    const apiUrl = `https://api.github.com/users/${username}`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const githubStats = document.getElementById('github-stats');
+            githubStats.innerHTML = `
+                 <p><strong>Nama:</strong> ${data.name}</p>
+                <p><strong>Followers:</strong> ${data.followers}</p>
+                <p><strong>Following:</strong> ${data.following}</p>
+                <p><strong>Public Repos:</strong> ${data.public_repos}</p>
+            `;
+        })
+        .catch(error => {
+            console.error('Error fetching GitHub API:', error);
+        });
+});
