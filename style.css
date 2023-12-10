@@ -366,4 +366,8 @@ flex: 5;
     animation-delay: 1s;
     
   }
+  #github-stats p{
+  font-size: 13px;
+  margin: 5% 0;
+}
 }
