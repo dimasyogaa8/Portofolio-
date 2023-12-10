@@ -170,7 +170,7 @@ body {
     }
    .project-view {
       width: 75%;
-      height: 275px;
+      height: 300px;
       background: rgba(0, 136, 255, 0.08);
       backdrop-filter: blur(15px);
       margin: 5% auto;
@@ -194,6 +194,7 @@ body {
     }
     .subtext {
       padding: 0 40px;
+      font-size: 20px;
       color: gray; 
       margin: 4% 0;
       
