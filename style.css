@@ -1,8 +1,10 @@
+/*config*/
 * {
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
 }
+/*root*/
 :root {
    --animate-delay: 0.9s;
 }
@@ -12,6 +14,7 @@ body {
     padding: 0;
     background: rgba(92, 170, 237, 0.09);
 }
+/*navbar*/
 .dark-mode {
   background-color: rgba(0, 43, 70, 1);
   color: white;
@@ -57,6 +60,7 @@ body {
 .navbar-container a:hover{
     border-bottom: 2px solid #fff;
 }
+/*hiro selection*/
 .hiro-container {
     text-align: center;
     margin: 50px;
@@ -78,6 +82,7 @@ body {
     color: grey;
     margin-top: 2px;
 }
+/*media sosial icon*/
 .sosoalmed {
   width: auto;
   height: 50px;
@@ -93,6 +98,7 @@ body {
   
   
 }
+/*button project*/
 .action-button {
     background-color: #3498db;
     color: #fff;
@@ -106,6 +112,7 @@ body {
 .action-button:hover {
     background-color: #2980b9;
 }
+/*about me*/
 .Info-me {
   width: 100%;
   height: 55px;
@@ -124,6 +131,7 @@ body {
   font-size: 13px;
   color: #ADB2B5;
 }
+/*button scrol*/
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -144,6 +152,7 @@ body {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+/*stack*/
 .stack-container {
   max-width: 800px;
   height: auto;
@@ -178,7 +187,7 @@ body {
 .project-text:hover {
   color: #007ECC;
 }
-
+/*project*/
     .project-box {
       width: 100%;
       height: auto;
@@ -229,6 +238,7 @@ body {
     animation-delay: 1s;
     
   }
+  /*kontak*/
 .contect-me {
   width: 100%;
   height: auto;
@@ -259,6 +269,7 @@ transition: all .8s cubic-bezier (.25, 4, 45, 1.4);
 flex: 5;
 
 }*/
+/*componet github stats*/
 .containers {
   width: 78%;
   height: 200px;
@@ -284,9 +295,11 @@ flex: 5;
 .subj {
   color: #009AFF;
 }
+/*github stats*/
 #github-stats p{
   font-size: 16px;
 }
+/*area responsif andro user*/
 @media(max-width: 760px) {
   .stack-container {
   max-width: 800px;
