@@ -388,7 +388,7 @@ flex: 5;
   margin: 5% 0;
 }
 }
-@media(min-width: 1020px) {
+/*@media(min-width: 1020px) {
   .Ipad {
     display: flex;
   }
@@ -444,4 +444,4 @@ flex: 5;
     animation-delay: 1s;
     
   }
-}
+}*/
