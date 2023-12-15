@@ -352,6 +352,7 @@ flex: 5;
     .project-view h1{
       color: #009AFF;
       padding: 5% 10%;
+      font-size: 20px;
     }
     .lebel {
       padding: 0 8%;
@@ -365,16 +366,16 @@ flex: 5;
     }
     .subtext {
       padding: 0 40px;
-      font-size: 12px;
+      font-size: 15px;
       color: gray; 
       margin: 4% 0;
       
     }
   .button-proj {
-    padding: 10px 25px;
+    padding: 15px 26px;
     text-align: center;
     background-color: #0088FF;
-    margin: 0 8%;
+    margin: 5% 10%;
     border-radius: 3px;
     color: white;
   }
