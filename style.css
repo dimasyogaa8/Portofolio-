@@ -79,13 +79,14 @@ body {
 }
 
 .hiro-container p{
-    color: grey;
+    color: #57575D;
     margin-top: 2px;
 }
 /*media sosial icon*/
 .sosoalmed {
   width: auto;
   height: 50px;
+  margin: 5% 0;
   
 }
 .sosoalmed ul{
@@ -129,7 +130,7 @@ body {
 .Info-about p{
   padding: 0 5px;
   font-size: 18px;
-  color: #ADB2B5;
+  color: #A9A9AC;
 }
 /*button scrol*/
 #myBtn {
@@ -278,7 +279,7 @@ flex: 5;
   background: rgba(0, 136, 255, 0.08);
   backdrop-filter: blur(15px);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
-  border-radius: 25px;
+  border-radius: 20px;
 }
 .boxs {
   margin: 5% 15%;
