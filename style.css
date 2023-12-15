@@ -272,9 +272,10 @@ flex: 5;
 }*/
 /*componet github stats*/
 .containers {
-  width: 78%;
-  height: 200px;
+  width: 75%;
+  height: 300px;
   display: flex;
+  align-content: center;
   margin: auto;
   background: rgba(0, 136, 255, 0.08);
   backdrop-filter: blur(15px);
@@ -282,13 +283,15 @@ flex: 5;
   border-radius: 20px;
 }
 .boxs {
-  margin: 5% 15%;
+  margin: auto;
+}
+.imgs {
+    margin: 7% 5%;
 }
 .imgs img{
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  margin: 5% 5%;
   border: 2px solid rgba(0, 236, 255, 1);
   
   
@@ -298,7 +301,10 @@ flex: 5;
 }
 /*github stats*/
 #github-stats p{
-  font-size: 16px;
+  font-size: 18px;
+}
+.htmll {
+    fill: #E34F26;
 }
 /*area responsif andro user*/
 @media(max-width: 760px) {
@@ -388,6 +394,9 @@ flex: 5;
   #github-stats p{
   font-size: 10.5px;
   margin: 5% 0;
+}
+.imgs {
+    margin: 15% 5%;
 }
 }
 /*@media(min-width: 1020px) {
