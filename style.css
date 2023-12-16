@@ -399,10 +399,7 @@ flex: 5;
     margin: 15% 5%;
 }
 }
-@media(min-width: 1020px) {
-  .Ipad {
-    display: flex;
-  }
+/*@media(min-width: 1020px) {
   .project-text {
   color: #009AFF;
   padding: 0 20px;
@@ -455,4 +452,4 @@ flex: 5;
     animation-delay: 1s;
     
   }
-}
+}*/
