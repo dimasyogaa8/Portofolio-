@@ -155,7 +155,7 @@ body {
 }
 /*stack*/
 .stack-container {
-  max-width: 800px;
+  width: 100%;
   height: auto;
   padding: 40px;
   border-radius: 8px;
@@ -309,7 +309,7 @@ flex: 5;
 /*area responsif andro user*/
 @media(max-width: 760px) {
   .stack-container {
-  max-width: 800px;
+  width: 100%;
   height: 220px;
   padding: 10px 40px;
   border-radius: 8px;
@@ -399,7 +399,7 @@ flex: 5;
     margin: 15% 5%;
 }
 }
-/*@media(min-width: 1020px) {
+@media(min-width: 1020px) {
   .Ipad {
     display: flex;
   }
@@ -455,4 +455,4 @@ flex: 5;
     animation-delay: 1s;
     
   }
-}*/
+}
