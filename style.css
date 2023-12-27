@@ -157,7 +157,7 @@ body {
 .stack-container {
   width: 100%;
   height: auto;
-  padding: 40px;
+  padding: 40px 41px;
   border-radius: 8px;
   margin: 1% 0;
 }
@@ -182,7 +182,7 @@ body {
 
 .project-text {
   color: #009AFF;
-  padding: 0 40px;
+  padding: 10px 41px;
 }
 
 .project-text:hover {
@@ -195,6 +195,7 @@ body {
       display: flex;
       flex-wrap: wrap;
     }
+    
    .project-view {
       width: 45%;
       height: 300px;
@@ -203,7 +204,13 @@ body {
       margin: 5% auto;
       border-radius: 20px;
       box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+      display: flex;
+      justify-content: center;
+      align-content: center;
       
+    }
+    .project-content {
+      margin: auto;
     }
     .project-view h1{
       color: #009AFF;
@@ -220,14 +227,14 @@ body {
       display: flex;
     }
     .subtext {
-      padding: 0 40px;
-      font-size: 15px;
+      padding: 0 35px;
+      font-size: 20px;
       color: gray; 
-      margin: 4% 0;
+      margin: 4% 2%;
       
     }
   .button-proj {
-    padding: 10px 25px;
+    padding: 10px 15px;
     text-align: center;
     background-color: #0088FF;
     margin: -10%  9%;
@@ -314,7 +321,7 @@ flex: 5;
   .stack-container {
   width: 100%;
   height: 220px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   border-radius: 8px;
   margin: 19% 0;
 }
@@ -338,7 +345,7 @@ flex: 5;
 
 .project-text {
   color: #009AFF;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .project-text:hover {
@@ -357,7 +364,13 @@ flex: 5;
       margin: 5% auto;
       border-radius: 20px;
       box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+      display: flex;
+      justify-content: center;
+      align-content: center;
       
+    }
+    .project-content {
+      margin: auto;
     }
     .project-view h1{
       color: #009AFF;
@@ -375,14 +388,14 @@ flex: 5;
       display: flex;
     }
     .subtext {
-      padding: 0 40px;
+      padding: 0 35px;
       font-size: 15px;
       color: gray; 
-      margin: 4% 0;
+      margin: 4% 2%;
       
     }
   .button-proj {
-    padding: 15px 26px;
+    padding: 10px 10px;
     text-align: center;
     background-color: #0088FF;
     margin: 5% 10%;
